@@ -51,7 +51,8 @@ const Home = () => {
     <div className="home-container">
       <div className="home-background">
         <div className="home-details">
-          <h1>Good Afternoon,<br />{homeData.name}</h1>
+          <h3>Good Afternoon</h3>
+          <h1>{homeData.name}</h1>
           <div className="home-item">
             <div className="qr-item"><img src="./assets/qrCode.png" alt="QR Code" /></div>
             <div className="balance">
